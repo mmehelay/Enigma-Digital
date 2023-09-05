@@ -2,7 +2,7 @@
 title: 'About'
 description: 'Meta description for the page'
 preloadImg: '/assets/images/cabinets2.jpg'
-permalink: 'about/'
+permalink: '/about/'
 eleventyNavigation:
     key: About Us
     order: 200
@@ -15,61 +15,197 @@ eleventyNavigation:
 {% endblock %}
 
 {% block body %}
-    <!-- ============================================ -->
-    <!--                    LANDING                   -->
-    <!-- ============================================ -->
+  <!-- ============================================ -->
+<!--                   Banner                     -->
+<!-- ============================================ -->
 
-    <section id="int-hero">
-        <h1 id="home-h">About Us</h1>
-        <picture>
-            <source media="(max-width: 600px)" srcset="/assets/images/cabinets2-m.jpg">
-            <source media="(min-width: 601px)" srcset="/assets/images/cabinets2.jpg">
-            <img aria-hidden="true" decoding="async" src="/assets/images/cabinets2.jpg" alt="kitchen cabinets" loading="eager" width="2500" height="1667">
+<div id="banner-310">
+    <div class="cs-container">
+        <span class="cs-int-title">About Us</span>
+        <div class="cs-breadcrumbs">
+            <a href="" class="cs-link">Home</a>
+            <a href="" class="cs-link cs-active">About Us</a>
+        </div>
+    </div>
+    <!--Background Image-->
+    <picture class="cs-background">
+        <source media="(max-width: 600px)" srcset="/assets/images/Hero/Cta_D.jpg">
+        <source media="(min-width: 601px)" srcset="/assets/images/Hero/Cta_M.jpg">
+        <img aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/Hero/Cta_D.jpg" alt="Website Coding" width="1920" height="375">
+    </picture>
+</div>
+                                
+               
+
+                                
+<!-- ============================================ -->
+<!--                 Side By Side                 -->
+<!-- ============================================ -->
+
+<section id="Aboutsbs-328">
+    <div class="cs-container">
+        <!-- Left Image Section -->
+        <picture class="cs-picture">
+            <source media="(max-width: 600px)" srcset="/assets/images/Hero/About1_D.jpg">
+            <source media="(min-width: 601px)" srcset="/assets/images/Hero/About1_M.jpg">
+            <img loading="lazy" decoding="async" src="/assets/images/Hero/About1_D.jpg" alt="Team" width="520" height="680" aria-hidden="true">
         </picture>
+        <!-- Right Content Section-->
+        <div class="cs-content">
+            <span class="cs-topper">Who Are We</span>
+            <h2 class="cs-title">A Leading Web Development Company Toronto</h2>
+            <p class="cs-text">
+               A leading Toronto web development and web design company. We are passionate about creating exceptional digital experiences that drive success for businesses in Toronto and beyond. Our mission is to be your trusted partner in crafting remarkable web solutions that elevate your brand and capture your target audience.
+            </p>
+            <a class="cs-button-solid" aria-label="learn more about our programs" href="/Web-Design/">Web Design Services</a>
 
-    </section>
-
-    <!-- ============================================ -->
-    <!--                 Side By Side                 -->
-    <!-- ============================================ -->
-
-    <section id="sbs">
-        <div class="cs-container">
-            <!-- Left Image Section -->
-            <div class="cs-left">
-                <picture class="cs-picture cs-picture1">
-                    <source media="(max-width: 600px)" srcset="/assets/images/cabinets2-m.jpg">
-                    <source media="(min-width: 601px)" srcset="/assets/images/cabinets2.jpg">
-                    <img aria-hidden="true" decoding="async" src="/assets/images/cabinets2.jpg" alt="cabinets" loading="lazy" width="400" height="563">
-                </picture>
-                <picture class="cs-picture cs-picture2">
-                    <source media="(max-width: 600px)" srcset="/assets/images/construction-m.jpg">
-                    <source media="(min-width: 601px)" srcset="/assets/images/construction.jpg">
-                    <img aria-hidden="true" decoding="async" src="/assets/images/construction.jpg" alt="house" loading="lazy" width="400" height="563">
-                </picture>
-            </div>
-            <!-- Right Content Section-->
-            <div class="cs-right">
-                <span class="cs-topper">About Us</span>
-                <h2 class="cs-title">About Company Title</h2>
-                <p class="cs-text">
-                    In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
-                </p>
-                <p class="cs-text">
-                    In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
-                </p>
-                <div class="cs-flex-group">
-                    <p class="cs-flex-p">
-                        In consequat tincidunt turpis sit amet imperdiet. Praesent Classei consequat tincidunt turpis sit amet imperdiet for mind.
-                    </p>
-                    <span class="cs-name">Justin Time</span>
-                    <span class="cs-job">CEO-Founder</span>
-                    <img class="cs-quote-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/quote-white.svg" alt="gavel" width="136" height="77">
+            <!--SVG Circles-->
+            <div class="cs-circles">
+                <div class="cs-circle">
+                    <!--Wrapped in a div so mobile positioning is easier-->
+                    <div class="cs-ring-wrapper">
+                        <span class="cs-number">50+</span>
+                        <!--Change the --ratio to the decimal percentage of this circle-->
+                        <svg class="cs-ring" style="--ratio: 0.50">
+                            <circle cx="50%" cy="50%" r="50%"/>
+                            <circle cx="50%" cy="50%" r="50%"/>
+                        </svg>
+                    </div>
+                    <span class="cs-desc">Handcoded Websites</span>
                 </div>
-                <a href="/projects" class="cs-button-solid">Our Projects</a>
+                <div class="cs-circle">
+                    <div class="cs-ring-wrapper">
+                        <span class="cs-number">90+</span>
+                        <!--Change the --ratio to the decimal percentage of this circle-->
+                        <svg class="cs-ring" style="--ratio: 0.90">
+                            <circle cx="50%" cy="50%" r="50%"/>
+                            <circle cx="50%" cy="50%" r="50%"/>
+                        </svg>
+                    </div>
+                    <span class="cs-desc">Satisfied Clients</span>
+                </div>
+                <div class="cs-circle">
+                    <div class="cs-ring-wrapper">
+                        <span class="cs-number">90+</span>
+                        <!--Change the --ratio to the decimal percentage of this circle-->
+                        <svg class="cs-ring" style="--ratio: 0.90">
+                            <circle cx="50%" cy="50%" r="50%"/>
+                            <circle cx="50%" cy="50%" r="50%"/>
+                        </svg>
+                    </div>
+                    <span class="cs-desc"> Google Scores</span>
+                </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                Side By Side                  -->
+<!-- ============================================ -->
+
+<section id="sbs-410">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">What We Do</span>
+            <h2 class="cs-title">Web Development</h2>
+            <p class="cs-text">
+                At Enigma Digital, web development in Toronto is at the core of what we do. Our expert team of developers specializes in creating robust, user-friendly, and innovative websites that align with your unique business goals. Whether you need a dynamic e-commerce platform, a feature-rich web application, or a sleek portfolio site, our web development services are tailored to exceed your expectations.
+            </p>
+            <ul class="cs-ul">
+                <li class="cs-item">
+                    <h3 class="cs-h3">SEO</h3>
+                    <p class="cs-item-text">
+                       Our expert SEO team is dedicated to boosting your website's visibility and driving organic traffic to your digital doorstep.
+                    </p>
+                </li>
+                <li class="cs-item">
+                    <h3 class="cs-h3">Maintenance</h3>
+                    <p class="cs-item-text">
+                        With our website maintenance services, you can focus on your core business while we take care of the technical aspects of your site.
+                    </p>
+                </li>
+            </ul>
+            <a href="/SEO/" class="cs-button-solid">SEO Services</a>
+        </div>
+        <div class="cs-image-group">
+            <!--Top Left Image-->
+            <picture class="cs-picture cs-picture1">
+                <source media="(max-width: 600px)" srcset="/assets/images/Hero/About3_D.jpg">
+                <source media="(min-width: 601px)" srcset="/assets/images/Hero/About3_M.jpg">
+                <img aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/Hero/About3_D.jpg" alt="Web Design" width="229" height="352">
+            </picture>
+            <!--Top Right Image-->
+            <picture class="cs-picture cs-picture2">
+                <source media="(max-width: 600px)" srcset="/assets/images/Hero/About4_D.jpg">
+                <source media="(min-width: 601px)" srcset="/assets/images/Hero/About4_M.jpg">
+                <img aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/Hero/About4_D.jpg" alt="Web Design" width="390" height="352">
+            </picture>
+            <!--Bottom Image-->
+            <picture class="cs-picture cs-picture3">
+                <source media="(max-width: 600px)" srcset="/assets/images/Hero/About2_D.jpg">
+                <source media="(min-width: 601px)" srcset="/assets/images/Hero/About2_M.jpg">
+                <img aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/Hero/About2_D.jpg" alt="backyard" width="649" height="227">
+            </picture>
+        </div>
+    </div>
+    <!--SVG Background Graphic-->
+    <picture class="cs-graphic">
+        <source media="(min-width: 1300px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/svg-slant.svg">
+        <source media="(min-width: 768px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/svg-slant-t.svg">
+        <source media="(max-width: 767px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/svg-slant-m.svg">
+        <img class="cs-graphic-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/svg-slant-m.svg" alt="graphic" width="360" height="741">
+    </picture>
+</section>
+                                
+
+
+
+<!-- ============================================ -->
+<!--                Why Choose Us                 -->
+<!-- ============================================ -->
+
+<section id="why-choose-223">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Why Choose Us</span>
+            <h2 class="cs-title">A Web Development Agency You Can Trust in Toronto</h2>
+            <p class="cs-text">
+               At Enigma Digital, we approach every project with a client-centric mindset. We listen attentively to your needs and preferences to gain a deep understanding of your vision. Our team collaborates closely with you throughout the process, ensuring that your web development and design projects reflect your unique brand essence and resonate with your target audience
+            </p>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <img class="cs-icon" loading="lazy" decoding="async" src="/assets/images/Hero/icons8-handcrafted.svg" alt="icon" width="72" height="72">
+                <h3 class="cs-h3">Handcrafted Excellence</h3>
+                <p class="cs-item-text">
+                Our websites are meticulously hand-coded, providing you with a level of customization and performance that template-based platforms can't match. Your online presence will be as unique as your brand.
+                </p>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" loading="lazy" decoding="async" src="/assets/images/Hero/icons8-strategy.svg" alt="icon" width="72" height="72">
+                <h3 class="cs-h3">Holistic Digital Strategy</h3>
+                <p class="cs-item-text">
+                  We don't just design websites; we create a comprehensive digital strategy that aligns with your business goals and maximizes your online impact.
+                </p>
+            </li>
+             <li class="cs-item">
+                <img class="cs-icon" loading="lazy" decoding="async" src="/assets/images/Hero/icons8-team.svg" alt="icon" width="72" height="72">
+                <h3 class="cs-h3">Professional Team</h3>
+                <p class="cs-item-text">
+                   Our team consists of skilled professionals who are passionate about their craft, committed to excellence, and dedicated to your success.Each member of our team brings a unique set of talents and expertise.
+                </p>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" loading="lazy" decoding="async" src="/assets/images/Hero/icons8-support.svg" alt="icon" width="72" height="72">
+                <h3 class="cs-h3">Exceptional Client Support</h3>
+                <p class="cs-item-text">
+                   We prioritize building lasting relationships with our clients. Our dedicated support team is always ready to assist you, providing timely responses to your inquiries and ensuring a smooth collaboration throughout your project journey.
+                </p>
+            </li>
+        </ul>
+    </div>
+</section>
 
     {% include 'components/cta.html' %}
 
