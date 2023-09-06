@@ -707,7 +707,7 @@
         }
 
         .cs-logo {
-            width: 18.4%;
+            width: 100%;
             max-width: calc(350 / 16 * 1rem);
             height: calc(32 / 16 * 1rem);
             /* margin-right auto pushes everything away from it to the right */
@@ -720,7 +720,7 @@
 
             img {
                 width: 100%;
-                height: 100%;
+                height: 150%;
                 /* ensures the image never overflows the container. It stays contained within it's width and height and expands to fill it then stops once it reaches an edge */
                 object-fit: contain;
             }
