@@ -35,372 +35,425 @@ eleventyNavigation:
 
 {% block body %}
 
-    <!-- ============================================ -->
+ <!-- ============================================ -->
 <!--                    Hero                      -->
 <!-- ============================================ -->
 
-<section id="hero-1115">
+<section id="hero-1350">
     <div class="cs-container">
         <div class="cs-content">
-            <span class="cs-topper">Handcoded with Love</span>
-            <h1 class="cs-title">Web design in Toronto </h1>
+            <span class="cs-topper">Welcome To Stitch Agency</span>
+            <h1 class="cs-title">Small Business Web Design & Development</h1>
             <p class="cs-text">
-              Ignite Your Digital Presence with Exquisite Handcrafted Web Design, Strategic Web Development Engineered to Captivate and Convert, and SEO Strategies Crafted to Catapult Your Site's Visibility
+                No page builders or WordPress - We offer superior 100% hand-coded websites with starting at $150/mo.
             </p>
-            <a href="/booking/" class="cs-button-solid">Strategy Call</a>
-        </div>
-        <!--Hero Image-->
-        <!--We need a wrapper div around the image group so the volunteer box can be relatively positioned on mobile to make stacking the design easier -->
-        <div class="cs-image-group-wrapper">
-            <div class="cs-image-group" aria-hidden="true">
-                <!--We have two images, one with a border radius on the bottom and one without. We place them on top of each other so the top picture can appear to overlap the curved one. We did this so you should be able to add any new image you want to use and it should work with minimal editing -->
-                <!--Use https://www.remove.bg/ remove the background of any images and make new PNG images to replace our default ones-->
-                <!--Non Masked Image-->
-                <picture class="cs-picture cs-picture1">
-                    <!--Mobile Image-->
-                    <source media="(max-width: 600px)" srcset="/assets/images/Hero/Enigma_Hero_D-bg.png">
-                    <!--Tablet and above Image-->
-                    <source media="(min-width: 601px)" srcset="/assets/images/Hero/Enigma_Hero_M-bg.png">
-                    <img decoding="async" fetchpriority="high" src="/assets/images/Hero/Enigma_Hero_D-bg.png" alt="Website Desktop" width="651" height="523">
-                </picture>
-                <!--Floating Icon-->
-                <picture class="cs-floater" aria-hidden="true">
-                    <img class="cs-floater-icon" decoding="async" fetchpriority="high" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/charity2.svg" alt="icon" width="52" height="52">
-                </picture>
-            </div>
-                   <!--Volunteer Box-->
-        <div class="cs-volunteer" aria-hidden="true">
-            <span class="cs-header">Our Happy Clients</span>
-            <div class="cs-volunteer-flex">
-                <img class="cs-volunteer-img" decoding="async" fetchpriority="high" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hero-profile1.png" alt="icon" width="48" height="48">
-                <img class="cs-volunteer-img" decoding="async" fetchpriority="high" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hero-profile2.png" alt="icon" width="48" height="48">
-                <img class="cs-volunteer-img" decoding="async" fetchpriority="high" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hero-profile3.png" alt="icon" width="48" height="48">
-                <img class="cs-volunteer-img" decoding="async" fetchpriority="high" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hero-profile4.png" alt="icon" width="48" height="48">
-                <img class="cs-volunteer-img" decoding="async" fetchpriority="high" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hero-profile5.png" alt="icon" width="48" height="48">
-              
-            </div>
-            <!--Squiggly Arrow-->
-            <img class="cs-arrow" decoding="async" fetchpriority="high" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/sqiggly-arrow.svg" alt="icon" width="48" height="48">
-        </div>
+            <a href="" class="cs-button-solid">Free Consultation</a>
         </div>
     </div>
+    <!--Bubble Groups-->
+    <div class="cs-bubbles cs-bubbles1" aria-hidden="true"></div>
+    <div class="cs-bubbles cs-bubbles2" aria-hidden="true"></div>
+    <!-- Background Image, background image added in the css at 1600px for parallax effect -->
+    <picture class="cs-background">
+        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/abstract-m.jpg">
+        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/abstract.jpg">
+        <img decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/abstract.jpg" alt="abstract background" width="2250" height="1500" aria-hidden="true">
+    </picture>
 </section>
-                                
-
-<!-- ============================================ -->
-<!--                 Side By Side                 -->
-<!-- ============================================ -->
-
-<section id="sbs-90">
-    <div class="cs-container">
-        <!-- Left Image Section -->
-        <picture class="cs-picture">
-            <source media="(max-width: 600px)" srcset="/assets/images/Hero/Mockup1_D.jpg">
-            <source media="(min-width: 601px)" srcset="/assets/images/Hero/Mockup1_M.jpg">
-            <img loading="lazy" decoding="async" src="/assets/images/Hero/Mockup1_D.jpg" alt="Website Design" width="347" height="604" aria-hidden="true">
-        </picture>
-        <!-- Right Content Section-->
-        <div class="cs-content">
-            <span class="cs-topper">
-    What We Do
-    <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/squiggle.svg" alt="squiggle graphic" aria-hidden="true" decoding="async" width="145" height="16">
-</span>
-            <h2 class="cs-title">Elevate Your Brand with Enigma Digital</h2>
-            <p class="cs-text">
-                Welcome to Enigma Digital, your trusted partner in sculpting extraordinary digital experiences. As a Toronto-based powerhouse in handcrafted web design, web development, and SEO, we're dedicated to propelling your business towards unprecedented digital triumph. Our mission is to raise your brand's profile, magnetize customers, and etch your legacy in Toronto's dynamic online landscape.
-            </p>
-            <a class="cs-button-solid" aria-label="read more about our services" href="/about/">Read More</a>
-        </div>
-    </div>
-</section>
-
-
 
 <!-- ============================================ -->
 <!--                  Services                    -->
 <!-- ============================================ -->
 
-<section id="services-366">
+<section id="services-1378">
     <div class="cs-container">
         <div class="cs-content">
-            <span class="cs-topper">Our Services</span>
-            <h2 class="cs-title"> Elevating Your Digital Journey with Premier Web Design and SEO Solutions</h2>
-            <p class="cs-text">
-               Allow us to liberate your focus, enabling you to channel your energies where they matter most - your core mission. Your success isn't just a goal, it's our relentless pursuit. Count on us to navigate your journey with precision, armed with our tailor-made web design and SEO solutions meticulously crafted to not just meet, but exceed your unique requirements.
-            </p>
+            <span class="cs-topper">What We Do</span>
+            <h2 class="cs-title">Crafted Website Just For You</h2>
+            <p class="cs-text">We specialize in small business web design and development for clients anywhere in the Canada. Every line of code is written by hand to ensure the best performance, which helps bring in more customers to your site and bring more revenue to your business.</p>
         </div>
         <ul class="cs-card-group">
             <li class="cs-item">
-                <a href="/Web-Design/" class="cs-link">
-                    <div class="cs-icon-wrapper">
-                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/Hero/icons8-web-design.svg" alt="icon" width="48" height="48">
-                        <!--Create a span to make more bubbles with pesudo elements-->
-                        <span class="cs-bubble" aria-hidden="true"></span>
-                    </div>
-                    <h3 class="cs-h3">Handcrafted Web Design</h3>
-                    <p class="cs-item-text">
-                       Our handcrafted web designs capture the essence of your brand while ensuring seamless functionality. Elevate your digital presence with websites that leave a lasting impression.
-                    </p>
+                <picture class="cs-picture">
+                    <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/agency-layers.svg" alt="icon" width="48" height="48">
+                </picture>
+                <h3 class="cs-h3">Website Design</h3>
+                <p class="cs-item-text">Blanket term for a whole gamut of different holistic, non-medical, physical procedures aimed at helping you achieve</p>
+                <a href="/" class="cs-link">
+                    <img class="cs-arrow" decoding="async"
+                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/agency-arrow-upper-right.svg"
+                        alt="arrow" width="413" height="374" aria-hidden="true">
                 </a>
             </li>
+      
+        <li class="cs-item">
+                <picture class="cs-picture">
+                    <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/agency-meter.svg" alt="icon" width="48" height="48">
+                </picture>
+                <h3 class="cs-h3">SEO Optimization</h3>
+                <p class="cs-item-text">Blanket term for a whole gamut of different holistic, non-medical, physical procedures aimed at helping you achieve</p>
+                <a href="/" class="cs-link">
+                    <img class="cs-arrow" decoding="async"
+                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/agency-arrow-upper-right.svg"
+                        alt="arrow" width="413" height="374" aria-hidden="true">
+                </a>
+            </li>
+
             <li class="cs-item">
-                <a href="/SEO/" class="cs-link">
-                    <div class="cs-icon-wrapper">
-                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/Hero/icons8-seo.svg" alt="icon" width="48" height="48">
-                        <!--Create a span to make more bubbles with pesudo elements-->
-                        <span class="cs-bubble" aria-hidden="true"></span>
-                    </div>
-                    <h3 class="cs-h3">SEO</h3>
-                    <p class="cs-item-text">
-                       Navigate Toronto's competitive digital landscape with confidence. Our SEO strategies are meticulously tailored to boost your brand's visibility, drive organic traffic, and secure a prominent place on search engine results pages.
-                    </p>
+                <picture class="cs-picture">
+                    <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/agency-alert.svg" alt="icon" width="48" height="48">
+                </picture>
+                <h3 class="cs-h3">Logo Design</h3>
+                <p class="cs-item-text">Blanket term for a whole gamut of different holistic, non-medical, physical procedures aimed at helping you achieve</p>
+                <a href="/" class="cs-link">
+                    <img class="cs-arrow" decoding="async"
+                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/agency-arrow-upper-right.svg"
+                        alt="arrow" width="413" height="374" aria-hidden="true">
                 </a>
             </li>
-            <li class="cs-item">
-                <a href="/Web-Design/" class="cs-link">
-                    <div class="cs-icon-wrapper">
-                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/Hero/icons8-logo-design.svg" alt="icon" width="48" height="48">
-                        <!--Create a span to make more bubbles with pesudo elements-->
-                        <span class="cs-bubble" aria-hidden="true"></span>
-                    </div>
-                    <h3 class="cs-h3">Logo Design</h3>
-                    <p class="cs-item-text">
-                       A strong brand starts with a memorable logo. Our logo design service is meticulously tailored to encapsulate your brand's essence, values, and aspirations.
-                    </p>
-                </a>
-            </li>
+          
+   
         </ul>
-        <a href="/booking/" class="cs-button-solid">Get Started</a>
     </div>
 </section>
-                                
-
-
-
 
 <!-- ============================================ -->
 <!--                   Gallery                    -->
 <!-- ============================================ -->
 
-<section id="gallery-46">
+<section id="gallery-1374">
     <div class="cs-container">
         <div class="cs-content">
-            <span class="cs-topper">Latest Projects</span>
-            <h2 class="cs-title">Latest Web Design and SEO Transformations</h2>
+            <span class="cs-topper">Our Portfolio</span>
+            <h2 class="cs-title">Explore Our Recently Completed Work</h2>
             <p class="cs-text">
-                At Enigma Digital, we pride ourselves on creating digital solutions that transcend expectations. Our latest projects showcase the intersection of design mastery and technical finesse, resulting in digital experiences that captivate, engage, and convert.
+                We specialize in small business web design and development for clients anywhere in the US. Every line of code is written by hand to ensure the best performance, which helps bring in more customers to your site and bring more revenue to your business.
             </p>
         </div>
-        <div class="cs-image-group">
-            <!-- Image 1 -->
-            <div class="cs-item cs-item-1">
-                <picture class="cs-picture">
-                    <source media="(max-width: 600px)" srcset="/assets/images/Hero/1.jpg">
-                    <source media="(min-width: 601px)" srcset="/assets/images/Hero/1.jpg">
-                    <img loading="lazy" decoding="async" src="/assets/images/Hero/1.jpg" alt="Website" width="529" height="256">
-                </picture>
-                <!-- Hover Box -->
-                <div class="cs-hover-box">
-                    <h3 class="cs-heading3">Modern Toolbox - Website Redesign</h3>
-                    <span class="cs-subtitle">Modern Toolbox, a leading construction company based in Aurora, approached us with a goal to revamp their online presence.</span>
-                    <a class="cs-link" aria-label="read more about this project" href="https://modern-toolbox.com/">
-                        <!-- SVG Arrow-->
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M16.01 11H5C4.45 11 4 11.45 4 12C4 12.55 4.45 13 5 13H16.01V14.79C16.01 15.24 16.55 15.46 16.86 15.14L19.64 12.35C19.83 12.15 19.83 11.84 19.64 11.64L16.86 8.85C16.55 8.53 16.01 8.76 16.01 9.2V11Z" fill="white" />
-                        </svg>
-                        Check Them Out
-                    </a>
-                </div>
-            </div>
-            <!-- Image 2 -->
-            <div class="cs-item cs-item-2">
-                <picture class="cs-picture">
-                    <source media="(max-width: 600px)" srcset="/assets/images/Hero/2 (1).jpg">
-                    <source media="(min-width: 601px)" srcset="/assets/images/Hero/2 (1).jpg">
-                    <img loading="lazy" decoding="async" src="/assets/images/Hero/2 (1).jpg" alt="Website" width="255" height="255">
-                </picture>
-                <!-- Hover Box -->
-                <div class="cs-hover-box">
-                    <h3 class="cs-heading3">Snap N Sweet - Brand Identity, Website Design, and SEO</h3>
-                    <span class="cs-subtitle">Creating an engaging website for Snap N Sweet, a rising star in the 360 photobooth industry in Toronto</span>
-                    <a class="cs-link" aria-label="read more about this project" href="https://snapnsweet.ca/">
-                        <!-- SVG Arrow-->
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M16.01 11H5C4.45 11 4 11.45 4 12C4 12.55 4.45 13 5 13H16.01V14.79C16.01 15.24 16.55 15.46 16.86 15.14L19.64 12.35C19.83 12.15 19.83 11.84 19.64 11.64L16.86 8.85C16.55 8.53 16.01 8.76 16.01 9.2V11Z" fill="white" />
-                        </svg>
-                        Check Them Out
-                    </a>
-                </div>
-            </div>
+        <ul class="cs-image-group">
+            <!-- Card 1 -->
+            <li class="cs-item">
+                <a href="/" class="cs-link">
+                    <picture class="cs-picture">
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/agency-portfolio-1.png">
+                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/agency-portfolio-1.png">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/agency-portfolio-1.png" alt="fancy house" width="346" height="346">
+                    </picture>
+                    <div class="cs-item-text">
+                        <div class="cs-flex">
+                            <h3 class="cs-h3">Voyage</h3>
+                            <span class="cs-desc">A complete Travel Agency App UI</span>
+                        </div>
+                        <picture class="cs-icon-wrapper">
+                            <img class="cs-icon" decoding="async"
+                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/agency-arrow-upper-right.svg"
+                                            alt="arrow" width="413" height="374" aria-hidden="true">
+                        </picture>
+                    </div>
+                </a>
+            </li>
+            <!-- Card 2 -->
+            <li class="cs-item">
+                <a href="/" class="cs-link">
+                    <picture class="cs-picture">
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/agency-portfolio-2.png">
+                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/agency-portfolio-2.png">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/agency-portfolio-2.png" alt="modern house" width="346" height="346">
+                    </picture>
+                    <div class="cs-item-text">
+                        <div class="cs-flex">
+                            <h3 class="cs-h3">Matcha and Co</h3>
+                            <span class="cs-desc">A Tea Brand E-commerce Website</span>
+                        </div>
+                        <picture class="cs-icon-wrapper">
+                            <img class="cs-icon" decoding="async"
+                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/agency-arrow-upper-right.svg"
+                                            alt="arrow" width="413" height="374" aria-hidden="true">
+                        </picture>
+                    </div>
+                </a>
+            </li>
+            <!-- Card 3 -->
+            <li class="cs-item">
+                <a href="/" class="cs-link">
+                    <picture class="cs-picture">
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/agency-portfolio-3.png">
+                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/agency-portfolio-3.png">
+                        <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/agency-portfolio-3.png" alt="modern home at night" width="346" height="346">
+                    </picture>
+                    <div class="cs-item-text">
+                        <div class="cs-flex">
+                            <h3 class="cs-h3">Bradley</h3>
+                            <span class="cs-desc">This is Psychologist's Portfolio landing page UI header.</span>
+                        </div>
+                        <picture class="cs-icon-wrapper">
+                            <img class="cs-icon" decoding="async"
+                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/agency-arrow-upper-right.svg"
+                                            alt="arrow" width="413" height="374" aria-hidden="true">
+                        </picture>
+                    </div>
+                </a>
+            </li>
+            <!-- Card 4 -->
+            <li class="cs-item">
+                <a href="/" class="cs-link">
+                    <picture class="cs-picture">
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/agency-portfolio-4.png">
+                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/agency-portfolio-4.png">
+                        <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/agency-portfolio-4.png" alt="modern home" width="346" height="346">
+                    </picture>
+                    <div class="cs-item-text">
+                        <div class="cs-flex">
+                            <h3 class="cs-h3">Anthony</h3>
+                            <span class="cs-desc">A Men's Skin Care website</span>
+                        </div>
+                        <picture class="cs-icon-wrapper">
+                            <img class="cs-icon" decoding="async"
+                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/agency-arrow-upper-right.svg"
+                                            alt="arrow" width="413" height="374" aria-hidden="true">
+                        </picture>
+                    </div>
+                </a>
+            </li>
+            <!-- Card 5 -->
+            <li class="cs-item">
+                <a href="/" class="cs-link">
+                    <picture class="cs-picture">
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/agency-portfolio-5.png">
+                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/agency-portfolio-5.png">
+                        <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/agency-portfolio-5.png" alt="appliance" width="346" height="346">
+                    </picture>
+                    <div class="cs-item-text">
+                        <div class="cs-flex">
+                            <h3 class="cs-h3">Quizlingo</h3>
+                            <span class="cs-desc">A complete Vocabulary Game App UI</span>
+                        </div>
+                        <picture class="cs-icon-wrapper">
+                            <img class="cs-icon" decoding="async"
+                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/agency-arrow-upper-right.svg"
+                                            alt="arrow" width="413" height="374" aria-hidden="true">
+                        </picture>
+                    </div>
+                </a>
+            </li>
+            <!-- Card 6 -->
+            <li class="cs-item">
+                <a href="/" class="cs-link">
+                    <picture class="cs-picture">
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/agency-portfolio-6.png">
+                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/agency-portfolio-6.png">
+                        <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/agency-portfolio-6.png" alt="modern home" width="346" height="346">
+                    </picture>
+                    <div class="cs-item-text">
+                        <div class="cs-flex">
+                            <h3 class="cs-h3">Listee</h3>
+                            <span class="cs-desc">A Business Directory Listing Website</span>
+                        </div>
+                        <picture class="cs-icon-wrapper">
+                            <img class="cs-icon" decoding="async"
+                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/agency-arrow-upper-right.svg"
+                                            alt="arrow" width="413" height="374" aria-hidden="true">
+                        </picture>
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <a href="/" class="cs-button-solid">View All Works</a>
+    </div>
+    <div class="cs-bubbles" aria-hidden="true"></div>
+</section>
+
+
+                                
+                                
+                                               
+
+<!-- ============================================ -->
+<!--                  Services                    -->
+<!-- ============================================ -->
+
+<section id="services-1377">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Why Choose Us</span>
+            <h2 class="cs-title">Here's Why People Love Working With Us</h2>
         </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/agency-briefcase.svg" alt="icon" width="48" height="48">
+                <a href="/" class="cs-link">
+                    <h3 class="cs-h3">Reliable Business</h3>
+                    <picture class="cs-arrow-wrapper">
+                        <img class="cs-arrow" decoding="async"
+                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/agency-arrow-upper-right.svg"
+                                    alt="arrow" width="413" height="374" aria-hidden="true">
+                    </picture>
+                </a>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/agency-chart.svg" alt="icon" width="48" height="48">
+                <a href="/" class="cs-link">
+                    <h3 class="cs-h3">Great Relationships</h3>
+                    <picture class="cs-arrow-wrapper">
+                        <img class="cs-arrow" decoding="async"
+                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/agency-arrow-upper-right.svg"
+                                    alt="arrow" width="413" height="374" aria-hidden="true">
+                    </picture>
+                </a>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/agency-thumb.svg" alt="icon" width="48" height="48">
+                <a href="/" class="cs-link">
+                    <h3 class="cs-h3">Clean Designs</h3>
+                    <picture class="cs-arrow-wrapper">
+                        <img class="cs-arrow" decoding="async"
+                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/agency-arrow-upper-right.svg"
+                                    alt="arrow" width="413" height="374" aria-hidden="true">
+                    </picture>
+                </a>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/agency-dial.svg" alt="icon" width="48" height="48">
+                <a href="/" class="cs-link">
+                    <h3 class="cs-h3">Easy to Work With</h3>
+                    <picture class="cs-arrow-wrapper">
+                        <img class="cs-arrow" decoding="async"
+                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/agency-arrow-upper-right.svg"
+                                    alt="arrow" width="413" height="374" aria-hidden="true">
+                    </picture>
+                </a>
+            </li>
+        </ul>
     </div>
 </section>
 
-                                
 <!-- ============================================ -->
-<!--                   Services                   -->
+<!--                  Pricing                     -->
 <!-- ============================================ -->
 
-<section id="services-1290">
+<section id="pricing-1384">
     <div class="cs-container">
         <div class="cs-content">
-            <div class="cs-flex-group">
-                <span class="cs-topper">Our Seamless Process</span>
-                <h2 class="cs-title">Vision into Reality</h2>
-            </div>
+            <span class="cs-topper">Our Pricing</span>
+            <h2 class="cs-title">Flexible Pricing Plans for Your Tailored Needs</h2>
             <p class="cs-text">
-                We can help you design your project and develop a comprehensive plan to ensure that it meets your
-                specific needs and requirements. Our team will work to
-                create a design that is both functional and aesthetically pleasing.
+                In the new era of technology we look in the future with certainty and for any post types, or just they are so much great of all to a program.
             </p>
         </div>
         <ul class="cs-card-group">
             <li class="cs-item">
-                    <picture class="cs-picture">
-                        <source media="(max-width: 600px)"
-                            srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/construction-book.png">
-                        <source media="(min-width: 601px)"
-                            srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/construction-book.png">
-                        <img loading="lazy" decoding="async"
-                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/construction-book.png"
-                            alt="cleaner" width="413" height="240" aria-hidden="true">
-                    </picture>
-                    <h3 class="cs-h3">
-                        <span class="cs-number">01</span>
-                        Strategy Call
-                    </h3>
-                    <p class="cs-item-text">
-                        Strategy call to understand your goals, target audience, and unique requirements
-                    </p>
+                <div class="cs-flex">
+                    <span class="cs-package">Basic Pack</span>
+                    <span class="cs-price">
+                        $100
+                        <span class="cs-duration">/Month</span>
+                    </span>
+                    <div class="cs-tag">
+                        <img class="cs-icon" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/fire.svg" decoding="async" alt="fire" width="16" height="16" loading="true">
+                        Hot Deal
+                    </div>
+                </div>
+                <ul class="cs-ul">
+                    <li class="cs-li">Mobile-Optimized</li>
+                    <li class="cs-li">Free Custom Domain</li>
+                    <li class="cs-li cs-disabled">Best Hosting</li>
+                    <li class="cs-li cs-disabled">Outstanding Support</li>
+                    <li class="cs-li cs-disabled">Happy Customers</li>
+                </ul>
+                <a href="" class="cs-button-transparent">Get Now</a>
+            </li>
+            <li class="cs-item cs-popular">
+                <div class="cs-flex">
+                    <span class="cs-package">Standard Pack</span>
+                    <span class="cs-price">
+                        $2200
+                        <span class="cs-duration"></span>
+                    </span>
+                    <div class="cs-tag">
+                        <img class="cs-icon" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/fire.svg" decoding="async" alt="fire" width="16" height="16" loading="true">
+                        Hot Deal
+                    </div>
+                </div>
+                <ul class="cs-ul">
+                    <li class="cs-li">Mobile-Optimized</li>
+                    <li class="cs-li">Free Custom Domain</li>
+                    <li class="cs-li">Best Hosting</li>
+                    <li class="cs-li cs-disabled">Outstanding Support</li>
+                    <li class="cs-li cs-disabled">Happy Customers</li>
+                </ul>
+                <a href="" class="cs-button-transparent">Get Now</a>
             </li>
             <li class="cs-item">
-                    <picture class="cs-picture">
-                        <source media="(max-width: 600px)"
-                            srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/construction-sketch.png">
-                        <source media="(min-width: 601px)"
-                            srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/construction-sketch.png">
-                        <img loading="lazy" decoding="async"
-                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/construction-sketch.png"
-                            alt="cleaner" width="413" height="240" aria-hidden="true">
-                    </picture>
-                    <h3 class="cs-h3">
-                        <span class="cs-number">02</span>
-                        Design
-                    </h3>
-                    <p class="cs-item-text">
-                        Our design phase brings your brand to life, or a rebrand if needed
-                    </p>
-            </li>
-            <li class="cs-item">
-                    <picture class="cs-picture">
-                        <source media="(max-width: 600px)"
-                            srcset="/assets/images/Hero/Mini-computer_D.jpg">
-                        <source media="(min-width: 601px)"
-                            srcset="/assets/images/Hero/Mini-computer_D.jpg">
-                        <img loading="lazy" decoding="async"
-                            src="/assets/images/Hero/Mini-computer_D.jpg"
-                            alt="Mini Computer" width="413" height="240" aria-hidden="true">
-                    </picture>
-                    <h3 class="cs-h3">
-                        <span class="cs-number">03</span>
-                        Development
-                    </h3>
-                    <p class="cs-item-text">
-                        Once the design phase is complete we move onto the development, where we handcode the site into reality.
-                    </p>
-            </li>
-            <li class="cs-item">
-                    <picture class="cs-picture">
-                        <source media="(max-width: 600px)"
-                            srcset="/assets/images/Hero/Spaceship.jpg">
-                        <source media="(min-width: 601px)"
-                            srcset="/assets/images/Hero/Spaceship.jpg">
-                        <img loading="lazy" decoding="async"
-                            src="/assets/images/Hero/Spaceship.jpg"
-                            alt="Website Mockup" width="413" height="240" aria-hidden="true">
-                    </picture>
-                    <h3 class="cs-h3">
-                        <span class="cs-number">04</span>
-                        Deployment
-                    </h3>
-                    <p class="cs-item-text">
-                        Once all checks are complete, we launch your website to the digital world
-                    </p>
+                <div class="cs-flex">
+                    <span class="cs-package">Corporate Pack</span>
+                    <span class="cs-price">
+                        $299
+                        <span class="cs-duration">/Month</span>
+                    </span>
+                    <div class="cs-tag">
+                        <img class="cs-icon" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/fire.svg" decoding="async" alt="fire" width="16" height="16" loading="true">
+                        Hot Deal
+                    </div>
+                </div>
+                <ul class="cs-ul">
+                    <li class="cs-li">Mobile-Optimized</li>
+                    <li class="cs-li">Free Custom Domain</li>
+                    <li class="cs-li">Best Hosting</li>
+                    <li class="cs-li">Outstanding Support</li>
+                    <li class="cs-li">Happy Customers</li>
+                </ul>
+                <a href="" class="cs-button-transparent">Read More</a>
             </li>
         </ul>
     </div>
-    <picture class="cs-background">
-        <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/waves2-crop.svg" alt="waves">
-    </picture>
 </section>
                                 
+
 <!-- ============================================ -->
-<!--                    FAQ                       -->
+<!--                   Reviews                    -->
 <!-- ============================================ -->
 
-<section id="faq-326">
+<section id="reviews-1397">
     <div class="cs-container">
         <div class="cs-content">
-            <span class="cs-topper">FAQ’s</span>
-            <h2 class="cs-title">Frequently Asked Questions</h2>
+            <span class="cs-topper">Testimonials</span>
+            <h2 class="cs-title">Happy Client’s Feedback About Our Service</h2>
         </div>
-        <div class="cs-flex-group">
-            <ul class="cs-faq-group">
-                <!-- Active class added as default -->
-                <li class="cs-faq-item active">
-                    <button class="cs-button">
-                        <span class="cs-button-text">
-                            Why should I choose Enigma Digital for web design?
-                        </span>
-                    </button>
-                    <p class="cs-item-p">
-                       Enigma Digital specializes in crafting hand-coded websites that are tailored to your brand's unique identity. Unlike DIY website builders like Wix, our custom solutions offer unmatched flexibility, design freedom, and optimized performance.
-                    </p>
-                </li>
-                <li class="cs-faq-item">
-                    <button class="cs-button">
-                        <span class="cs-button-text">
-                           What's the advantage of hand-coded websites over Wix?
-                        </span>
-                    </button>
-                    <p class="cs-item-p">
-                        Hand-coded websites by Enigma Digital provide superior customization, scalability, and performance. Unlike template-based platforms like Wix, we handcraft each element of your website, optimizing it for speed, search engine visibility, and seamless user experience.
-                    </p>
-                </li>
-                <li class="cs-faq-item">
-                    <button class="cs-button">
-                        <span class="cs-button-text">
-                            How much does your web design service cost?
-                        </span>
-                    </button>
-                    <p class="cs-item-p">
-                        Our prices are designed to offer exceptional value for your investment. We understand that every business is unique, and our pricing varies based on the scope of your project and your specific requirements. Rest assured, you'll receive a transparent and customized quote that aligns with your needs.
-                    </p>
-                </li>
-                <li class="cs-faq-item">
-                    <button class="cs-button">
-                        <span class="cs-button-text">
-                            Why should I invest in SEO for my website?
-                        </span>
-                    </button>
-                    <p class="cs-item-p">
-                        Investing in SEO (Search Engine Optimization) is crucial for enhancing your online visibility and attracting organic traffic to your website. Enigma Digital's SEO services are meticulously crafted to boost your search engine rankings, increase your website's authority, and drive targeted traffic to your business.
-                    </p>
-                </li>
-                <li class="cs-faq-item">
-                    <button class="cs-button">
-                        <span class="cs-button-text">
-                          Do you provide ongoing website maintenance?
-                        </span>
-                    </button>
-                    <p class="cs-item-p">
-                        Absolutely! Enigma Digital offers comprehensive website maintenance plans to ensure that your website remains up-to-date, secure, and optimized. Our maintenance services include regular updates, performance enhancements, security monitoring, and content management. With our ongoing support, you can focus on your core business activities while we take care of the technical aspects to keep your website running smoothly.
-                    </p>
-                </li>
-            </ul>
-        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <!--Blue Quote-->
+                <img class="cs-quote" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/pink-quotes.svg" decoding="async" alt="quote icon" width="120" height="99">
+                <p class="cs-item-text">
+                    Small businesses are the heartbeat of communities, embodying the spirit of entrepreneurship, determination, and local support. 
+                </p>
+                <div class="cs-flex-group">
+                 
+                    <span class="cs-name">
+                        Britney Allison
+                        <span class="cs-job">Founder Of Yokoloko</span>
+                    </span>
+                </div>
+            </li>
+            <li class="cs-item">
+                <!--Blue Quote-->
+                <img class="cs-quote" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/pink-quotes.svg" decoding="async" alt="quote icon" width="120" height="99">
+                <p class="cs-item-text">
+                    I want to say a huge thank you to the Stitch team. The guys in a short time and very efficiently helped me with the development of a website for my new startup.
+                </p>
+                <div class="cs-flex-group">
+                 
+                    <span class="cs-name">
+                        Jessica Jonson
+                        <span class="cs-job">CTO Of Meriette</span>
+                    </span>
+                </div>
+            </li>
+        </ul>
     </div>
+    <div class="cs-bubbles" aria-hidden="true"></div>
 </section>
+                                
+                              
 
-    {% include 'components/cta.html' %}
+ 
 {% endblock %}
