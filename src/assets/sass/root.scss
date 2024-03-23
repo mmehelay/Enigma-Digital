@@ -557,7 +557,7 @@ html {
             perspective: 500px;
 
             img {
-                width: 100%;
+                width: 70%;
                 height: auto;
                 /* ensures the image never overflows the container. It stays contained within it's width and height and expands to fill it then stops once it reaches an edge */
                 object-fit: contain;
